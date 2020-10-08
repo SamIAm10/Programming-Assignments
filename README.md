@@ -1,2 +1,2 @@
 # Programming-Assignments
-This repo is for storing all of my past programming assignments
+This repo is for storing some of my past programming assignments
