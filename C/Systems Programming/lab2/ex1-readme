@@ -1,0 +1,11 @@
+# ex11 corrections
+-changed char to int
+-minor spacing changes
+
+# ex12 corrections
+-removed result variable from factorial function
+-if n == 0, return 1 instead of result
+-changed + sign to - sign in recursive call
+-multiplied the recursive call by n instead of result
+-factorial function must now return the recursive call 
+-minor spacing changes

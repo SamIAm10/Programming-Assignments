@@ -1,0 +1,2 @@
+Right idea to do tortoise and hare, but the while loop after will segfault if there is no cycle or infinitely loop in some cases 
+score: 10 out of: 20

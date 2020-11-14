@@ -1,0 +1,17 @@
+Part A:
+- modified "kprintf()" at line 69 in "main.c" to print "HELLO WISSAM!"
+
+Parts B, C, D:
+- created "simple_syscalls.c" under "userprog" directory to implement "sys_" functions
+- added line "file userprog/simple_syscalls.c" in "conf.kern"
+- added "sys_" function prototypes for new system calls in "syscall.h"
+- added "SYS_" case statements for new system calls in "syscall.c"
+- modified "err" to initialize to 0 at line 53 in "syscall.c"
+- added "SYS_" definitions for new system calls in "callno.h"
+- added user-level function prototypes for new system calls in "unistd.h"
+
+Parts E, F:
+- created "testprint" and "testreverse" directories under "testbin" to test new system calls
+- added C program ("testprint.c" and "testreverse.c"), "Makefile", and "depend.mk" (copied from "palin") to each test directory
+- modified "Makefile" and "depend.mk" to support new tests
+- added make statements to support new tests in "Makefile" under "testbin" directory

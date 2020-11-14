@@ -1,0 +1,1 @@
+A simple client-server game where players connect to a server and compete against each other to guess the most amount of jumbled words

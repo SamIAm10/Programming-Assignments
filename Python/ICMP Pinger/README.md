@@ -1,0 +1,1 @@
+ICMP pinger client that sends packets to a specific host, waits for a reply, and prints out the round-trip time (RTT) of each packet. The program should also find the minimum, maximum, and average RTT, as well as the packet loss rate.

@@ -1,0 +1,2 @@
+The make_copy should return 's', not free it. The 'copy' string must be free'd after 'ptr' is free'd. The program should not return after the first iteration of the loop.
+score: 8 out of: 20

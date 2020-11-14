@@ -1,0 +1,21 @@
+#include <stdio.h>                                                                                                                                    
+#include <stdlib.h>                                                                                                                                   
+#include <fcntl.h>                                                                                                                                    
+#include <sys/wait.h>                                                                                                                                 
+#include <sys/types.h>                                                                                                                                
+#include <string.h>                                                                                                                                   
+#include <unistd.h>                                                                                                                                   
+                                                                                                                                                      
+                                                                                                                                                                                                                                                                                         
+                                                                                                                                                      
+int main(int argc, char** argv){                                                                                                                      
+                                                                                                                                                      
+  if(argc == 2){                                                                                                                                      
+    int sort_to_awk[2];                                                                                                                               
+    //Set up the pipe                                                                                                                                 
+    int pid = fork();                                                                                                                                 
+                                                                                                                                                      
+    if(pid == 0){                                                                                                                                     
+      /*                                                                                                                                              
+																		      At least two things need to happen here:                                                                                                      
+																		      1) We open up the file (with path argv[1]), and replace stdin FD with the file's

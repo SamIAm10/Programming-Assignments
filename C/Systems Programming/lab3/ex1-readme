@@ -1,0 +1,12 @@
+# example.c bugs
+-called free(arr) at end of code
+-changed i<=n to i<n
+-replaced arr = malloc(n) with arr = malloc(sizeof(int)*n)
+
+# document the errors/bugs your find in squares.c
+-added #include <stdlib.h>
+-added free(arr)
+-added return sum to sum function
+-changed fillsquares to begin at i=0 and stop at i<n
+-changed arr[i] to *(arr + i) in fillsquares
+-changes arr = (int*) malloc(n) to  arr = malloc(sizeof(int) * (n+1))
