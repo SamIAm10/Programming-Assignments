@@ -1,2 +1,0 @@
-Right idea to swap nexts but there is a segfault
-score: 15 out of: 20
